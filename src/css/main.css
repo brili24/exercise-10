@@ -3,6 +3,7 @@
   --primary-light-gray: hsl(212, 45%, 89%);
   --primary-grayish-blue: hsl(220, 15%, 55%);
   --primary-dark-blue: hsl(218, 44%, 22%);
+  --heading-font-family: ;
 }
 /* Decent Defaults */
 
@@ -10,6 +11,14 @@ img,
 video {
   width: 100%;
   height: auto;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
 
 /* Mobile Only Styles */
