@@ -1,7 +1,21 @@
+:root {
+  --primary-white: hsl(0, 0%, 100%);
+  --primary-light-gray: hsl(212, 45%, 89%);
+  --primary-grayish-blue: hsl(220, 15%, 55%);
+  --primary-dark-blue: hsl(218, 44%, 22%);
+}
 /* Decent Defaults */
 
 img,
 video {
   width: 100%;
   height: auto;
+}
+
+/* Mobile Only Styles */
+@media (max-width: 47.9375em) {
+}
+
+/* Desktop Only Styles */
+@media (min-width: 48em) {
 }
