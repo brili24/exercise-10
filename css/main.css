@@ -35,6 +35,7 @@ body {
 .card {
   background-color: var(--primary-white);
   max-width: 25%;
+  padding: 1em;
 }
 
 #heading {
