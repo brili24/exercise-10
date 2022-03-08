@@ -9,7 +9,7 @@
 
 img,
 video {
-  width: 50%;
+  width: 100%;
   height: auto;
 }
 
@@ -25,19 +25,24 @@ video {
 body {
   background-color: var(--primary-light-gray);
 }
-.card {
+.centered {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   align-content: center;
+}
+.card {
   background-color: var(--primary-white);
+  max-width: 25%;
 }
 
 #heading {
+  text-align: center;
 }
 
-#paragraph {
+#caption {
+  text-align: center;
   font-size: 15px;
 }
 
