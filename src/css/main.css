@@ -3,7 +3,7 @@
   --primary-light-gray: hsl(212, 45%, 89%);
   --primary-grayish-blue: hsl(220, 15%, 55%);
   --primary-dark-blue: hsl(218, 44%, 22%);
-  --heading-font-family: ;
+  --font-family: "Outfit", sans-serif;
 }
 /* Decent Defaults */
 
@@ -17,8 +17,13 @@ video {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.card {
+  display: flex;
 }
 
 /* Mobile Only Styles */
