@@ -9,7 +9,7 @@
 
 img,
 video {
-  width: 100%;
+  width: 50%;
   height: auto;
 }
 
@@ -32,6 +32,13 @@ body {
   align-items: center;
   align-content: center;
   background-color: var(--primary-white);
+}
+
+#heading {
+}
+
+#paragraph {
+  font-size: 15px;
 }
 
 /* Mobile Only Styles */
