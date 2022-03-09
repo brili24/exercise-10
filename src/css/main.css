@@ -11,6 +11,7 @@ img,
 video {
   width: 100%;
   height: auto;
+  border-radius: 1em;
 }
 
 .attribution {
@@ -31,20 +32,33 @@ body {
   justify-content: center;
   align-items: center;
   align-content: center;
+  min-height: 100vh;
 }
 .card {
   background-color: var(--primary-white);
-  max-width: 25%;
+  max-width: 25vw;
   padding: 1em;
+  border-radius: 1em;
 }
 
 #heading {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
   text-align: center;
+  font-family: "Outfit", sans-serif;
+  color: var(--primary-dark-blue);
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 #caption {
   text-align: center;
+  font-family: "Outfit", sans-serif;
   font-size: 15px;
+  margin-bottom: 2em;
+  color: var(--primary-grayish-blue);
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 /* Mobile Only Styles */
